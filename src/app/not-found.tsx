@@ -22,7 +22,7 @@ export default function NotFound() {
   }, [mounted, toast]);
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center max-md:mt-16 md:mt-28 lg:mt-40">
+    <div className="w-full h-full flex flex-col justify-center items-center">
       <div className="relative size-52 sm:size-72 lg:size-96 max-lg:my-10">
         <Image
           src={ImageList.notFound.src}
