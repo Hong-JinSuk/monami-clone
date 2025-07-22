@@ -17,7 +17,7 @@ export default function SwitchLang() {
       }}
     >
       <div
-        className={`absolute left-0 top-0 bg-gray-400 opacity-40 h-8 w-13 rounded-full transition-all duration-300 ${
+        className={`absolute left-0 top-0 bg-slate-300 opacity-40 h-8 w-13 rounded-full transition-all duration-300 ${
           lang == 'ko' ? 'translate-x-0' : 'translate-x-12'
         }`}
       />
