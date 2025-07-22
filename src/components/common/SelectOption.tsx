@@ -34,7 +34,9 @@ export default function SelectOption({
         <SelectGroup>
           {label && <SelectLabel>{label}</SelectLabel>}
           {options.map((item) => (
-            <SelectItem value={item.value}>{item.label}</SelectItem>
+            <SelectItem value={item.value} key={`${item.label}-${item.value}`}>
+              {item.label}
+            </SelectItem>
           ))}
         </SelectGroup>
       </SelectContent>
