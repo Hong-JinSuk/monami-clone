@@ -7,6 +7,7 @@ import Image from 'next/image';
 
 export default function SwitchLang() {
   const [lang, setLang] = useAtom(languageAtom);
+
   return (
     <div
       className="relative flex border rounded-full p-1.5 px-4 space-x-7 cursor-pointer"

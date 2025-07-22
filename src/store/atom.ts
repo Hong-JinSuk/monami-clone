@@ -23,4 +23,6 @@ const getLangAtom = (): Lang => {
 
 export const themeAtom = atom(getInitialTheme());
 
-export const languageAtom = atomWithStorage<Lang>('language', getLangAtom());
+// SSR 에서는 window 저기서 로컬 스토리지와 동기화가 안되기 때문에? 라는 것 같음.
+// export const languageAtom = atomWithStorage<Lang>('language', getLangAtom());
+export const languageAtom = atomWithStorage<Lang>('language', 'ko');
