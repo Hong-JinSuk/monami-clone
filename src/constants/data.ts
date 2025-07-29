@@ -109,3 +109,14 @@ export const mainMenus = [
     ],
   },
 ];
+
+export const NEW_ARRIVALS = {
+  arrival: '가장 먼저 만나는 설레는 기다림',
+  imageData: {
+    pen: 'FX ZETA C3',
+    note: '지퀸스',
+    preminum_pen: '프러스펜3000프라임',
+    fountain_pen: '153 아이디 만년필',
+    water_based_marker: '프로스펜 3000',
+  },
+};

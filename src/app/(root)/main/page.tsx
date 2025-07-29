@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Arrival from './_components/Arrival';
 
 export default function Page() {
   return (
@@ -32,6 +33,7 @@ export default function Page() {
           />
         </div>
       </div>
+      <Arrival />
       <div className="h-[2000px]">main</div>
     </>
   );
