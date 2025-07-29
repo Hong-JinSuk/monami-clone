@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <header
-      className={`w-full h-[150px] fixed flex flex-col items-center z-50 bg-white`}
+      className={`w-full h-[150px] fixed flex flex-col items-center z-50 bg-white border-b`}
     >
       <div
         className={`w-full h-[60px] flex items-center justify-between min-w-[500px] max-w-[1400px]`}
@@ -123,7 +123,9 @@ export default function Header() {
             ))}
           </div>
           <div className="w-[66px] h-full flex items-center justify-center space-x-4">
-            <Search size={20} strokeWidth={3} />
+            <Link href={'https://www.monami.com/search.php'}>
+              <Search size={20} strokeWidth={3} />
+            </Link>
             <MenuIcon size={25} strokeWidth={2} />
           </div>
         </div>
