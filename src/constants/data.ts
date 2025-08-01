@@ -113,10 +113,25 @@ export const mainMenus = [
 export const NEW_ARRIVALS = {
   arrival: '가장 먼저 만나는 설레는 기다림',
   imageData: {
-    pen: 'FX ZETA C3',
-    note: '지퀸스',
-    preminum_pen: '프러스펜3000프라임',
-    fountain_pen: '153 아이디 만년필',
-    water_based_marker: '프로스펜 3000',
+    pen: {
+      description: 'FX ZETA C3',
+      link: 'https://www.monami.com/product/product_view.php?ccode=005002&idx=188',
+    },
+    note: {
+      description: '지퀸스',
+      link: 'https://www.monami.com/product/product_view.php?ccode=001005&idx=186',
+    },
+    preminum_pen: {
+      description: '프러스펜3000프라임',
+      link: 'https://www.monami.com/product/product_view.php?ccode=005&idx=248',
+    },
+    fountain_pen: {
+      description: '153 아이디 만년필',
+      link: 'https://www.monami.com/product/product_view.php?ccode=005&idx=204',
+    },
+    water_based_marker: {
+      description: '프로스펜 3000',
+      link: 'https://www.monami.com/product/product_view.php?ccode=003&idx=168',
+    },
   },
 };

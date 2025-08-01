@@ -34,6 +34,7 @@ export default function Page() {
         </div>
       </div>
       <Arrival />
+      {/* swiper 이용해서 캐러셀을 구현해보자... */}
       <div className="h-[2000px]">main</div>
     </>
   );
