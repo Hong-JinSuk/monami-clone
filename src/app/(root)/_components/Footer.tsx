@@ -2,13 +2,12 @@
 import SelectOption from '@/components/common/SelectOption';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { mainPaddingX } from '@/constants/common';
 import Image from 'next/image';
 
 export default function Footer() {
   return (
     <footer
-      className={`w-full min-h-[310px] bg-[#111111] px-[${mainPaddingX}px] py-[60px]`}
+      className={`w-full min-h-[310px] bg-[#111111] px-[252px] py-[60px]`}
     >
       <div className="flex flex-col space-y-6">
         <div className="min-h-8 max-h-8 flex items-center justify-between">
