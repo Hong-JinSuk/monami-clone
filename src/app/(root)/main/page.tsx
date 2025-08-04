@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import Arrival from './_components/Arrival';
+import BestProduct from './_components/BestProduct';
+import NewArrivals from './_components/NewArrivals';
 
 export default function Page() {
   return (
@@ -33,8 +34,9 @@ export default function Page() {
           />
         </div>
       </div>
-      <Arrival />
+      <NewArrivals />
       {/* swiper 이용해서 캐러셀을 구현해보자... */}
+      <BestProduct />
       <div className="h-[2000px]">main</div>
     </>
   );

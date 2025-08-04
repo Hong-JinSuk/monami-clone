@@ -135,3 +135,72 @@ export const NEW_ARRIVALS = {
     },
   },
 };
+
+export const BEST_PRODUCT = [
+  {
+    category: '프리미엄 펜',
+    label: '프러스펜 3000 프라임',
+    link: 'https://www.monami.com/product/product_view.php?idx=248&ccode=005005',
+    image: '/assets/best-procudt/plus3000prime.jpg',
+  },
+  {
+    category: '프리미엄 펜',
+    label: '153 리스펙트 리파인',
+    link: 'https://www.monami.com/product/product_view.php?idx=213&ccode=005005',
+    image: '/assets/best-procudt/153respect-repine.jpg',
+  },
+  {
+    category: '만년필',
+    label: '153 아이디 만년필',
+    link: 'https://www.monami.com/product/product_view.php?idx=204&ccode=005006',
+    image: '/assets/best-procudt/153-id-fountain.jpg',
+  },
+  {
+    category: '만년필',
+    label: '153 네오 만년필 EF',
+    link: 'https://www.monami.com/product/product_view.php?idx=160&ccode=005006',
+    image: '/assets/best-procudt/153-neo-fountain-ef.jpg',
+  },
+  {
+    category: '프리미엄 펜',
+    label: '153 블랙 & 화이트',
+    link: 'https://www.monami.com/product/product_view.php?idx=19&ccode=005005',
+    image: '/assets/best-procudt/153-black-and-white.jpg',
+  },
+  {
+    category: '프리미엄 펜',
+    label: '153 골드',
+    link: 'https://www.monami.com/product/product_view.php?idx=24&ccode=005005',
+    image: '/assets/best-procudt/153-gold.jpg',
+  },
+  {
+    category: '프리미엄 펜',
+    label: '153 아이디',
+    link: 'https://www.monami.com/product/product_view.php?idx=15&ccode=005005',
+    image: '/assets/best-procudt/153-id.jpg',
+  },
+  {
+    category: '프리미엄 펜',
+    label: '60주년 프러스펜 3000 데스크펜 스페셜 에디션',
+    link: 'https://www.monami.com/product/product_view.php?idx=157&ccode=005005',
+    image: '/assets/best-procudt/60th-plus-3000-deskpen-special-edition.jpg',
+  },
+  {
+    category: '고급샤프',
+    label: '153 아이디 샤프',
+    link: 'https://www.monami.com/product/product_view.php?idx=18&ccode=005002',
+    image: '/assets/best-procudt/153-id-sharp.jpg',
+  },
+  {
+    category: '프리미엄 펜',
+    label: '153 네오',
+    link: 'https://www.monami.com/board/board.php?bo_table=catalogue',
+    image: '/assets/best-procudt/153-neo.jpg',
+  },
+  {
+    category: '프리미엄 펜',
+    label: '153 리스펙트',
+    link: 'https://www.monami.com/product/product_view.php?idx=16&ccode=005005',
+    image: '/assets/best-procudt/153-respect.jpg',
+  },
+];

@@ -5,7 +5,7 @@ import { Plus } from 'lucide-react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
-export default function Arrival() {
+export default function NewArrivals() {
   const router = useRouter();
   return (
     <div className="w-full flex items-center justify-center py-20">
