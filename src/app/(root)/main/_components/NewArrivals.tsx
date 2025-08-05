@@ -50,7 +50,7 @@ export default function NewArrivals() {
           </div>
           <div
             className="relative w-full aspect-video group cursor-pointer"
-            onClick={() => router.push(NEW_ARRIVALS.imageData.note.description)}
+            onClick={() => router.push(NEW_ARRIVALS.imageData.note.link)}
           >
             <div className="absolute left-0 top-0 w-full h-full p-5 z-10">
               <div
@@ -82,7 +82,7 @@ export default function NewArrivals() {
           <div
             className="relative w-full max-w-[400px] aspect-[4/3] max-h-[290px] group cursor-pointer"
             onClick={() =>
-              router.push(NEW_ARRIVALS.imageData.preminum_pen.description)
+              router.push(NEW_ARRIVALS.imageData.preminum_pen.link)
             }
           >
             <div className="absolute left-0 top-0 w-full h-full p-5 z-10">

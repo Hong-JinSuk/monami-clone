@@ -126,3 +126,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* 슬라이드 부드럽게 */
+.sample-slider .swiper-wrapper {
+  transition-timing-function: linear;
+}
