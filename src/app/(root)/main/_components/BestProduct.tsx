@@ -121,17 +121,20 @@ const Card = ({
 }) => {
   return (
     <Link href={link} target="_blank" rel="noopener noreferrer">
-      <div className="w-[266px] h-[510px] flex flex-col rounded-2xl bg-white">
-        <Image
-          src={image}
-          alt=""
-          width={266}
-          height={0}
-          className="rounded-2xl"
-        />
-        <div className="w-full h-[115px] px-[30px] pb-[20px] flex flex-col">
-          <span>{category}</span>
-          <span>{label}</span>
+      <div className="w-[266px] h-[505px] flex flex-col justify-between rounded-2xl bg-white">
+        <div className="relative w-[266px] h-[390px]">
+          <Image
+            src={image}
+            alt=""
+            // width={266}
+            // height={403}
+            fill
+            className="rounded-2xl object-contain"
+          />
+        </div>
+        <div className="w-full h-[115px] px-[30px] pt-[30px] flex flex-col gap-0.5">
+          <span className="text-xs text-gray-400">{category}</span>
+          <span className="font-bold">{label}</span>
         </div>
       </div>
     </Link>
