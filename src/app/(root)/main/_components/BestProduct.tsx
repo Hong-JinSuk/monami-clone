@@ -72,6 +72,7 @@ export default function BestProduct() {
         loop={true}
         speed={6000}
         allowTouchMove={false}
+        simulateTouch={false}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
